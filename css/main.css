@@ -109,7 +109,7 @@
         padding-bottom: 35px;
     }
 
-    .header-container{
+    .header-container {
         justify-content: space-between;
     }
 
@@ -272,3 +272,134 @@
 }
 
 /* hero end */
+
+/* why start */
+
+.why {
+    padding-top: 60px;
+    padding-bottom: 180px;
+    background-image: url(../img/why/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.why-container {
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.why-title {
+    font-family: Satoshi, sans-serif;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 57.2px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.why-text {
+    font-family: Satoshi, sans-serif;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 67.5px;
+    text-align: center;
+    color: #7E7E7E;
+    margin-bottom: 40px;
+}
+
+.why-video {
+    max-width: 880px;
+    height: 494px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width:950px) {
+    .why {
+        padding-top: 30px;
+        padding-bottom: 90px;
+        background-image: url(../img/why/banner.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .why-title {
+        font-size: 32px;
+        line-height: 47.2px;
+    }
+
+    .why-text {
+        font-size: 34px;
+        line-height: 37.5px;
+        margin-bottom: 0px;
+    }
+
+    .why-video {
+        max-width: 510px;
+        height: 394px;
+        display: flex;
+    }
+}
+
+@media(max-width:570px) {
+    .why-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .why-text {
+        font-size: 25px;
+        line-height: 25px;
+        margin-bottom: 0px;
+    }
+
+    .why-video {
+        max-width: 400px;
+        height: 300px;
+        display: flex;
+    }
+}
+
+@media(max-width:460px) {
+    .why-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .why-text {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 0px;
+    }
+
+    .why-video {
+        max-width: 300px;
+        height: 250px;
+        display: flex;
+    }
+}
+
+@media(max-width:360px) {
+    .why-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .why-text {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 0px;
+    }
+
+    .why-video {
+        max-width: 250px;
+        height: 180px;
+        display: flex;
+    }
+}
+
+/* why end  */
