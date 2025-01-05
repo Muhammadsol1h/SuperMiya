@@ -737,14 +737,18 @@
     justify-content: center;
     gap: 27px;
     padding-bottom: 45px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cours-col-box {
-    width: 340px;
-    /* height: 253px; */
+    width: 330px;
     background-color: white;
     border-radius: 26px;
     padding-left: 32px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cours-col-cart {
