@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script src="./js/app.js" defer></script>
 </head>
 
 <body>
@@ -49,7 +48,35 @@
                         <path
                             d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
                     </svg>
+                    
                 </button>
+                <div class="heaeder__res">
+                    <div class="header__res__top">
+                        <a href="./index.html" class="header__res__logo">
+                            <img src="./img/header/logo.svg" alt="header responsive logo icon">
+                        </a>
+                        <button class="header__close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                    <ul class="res__list">
+                        <li class="res__item">
+                            <a href="" class="res__link">
+                                Kurs haqida
+                            </a>
+                        </li>
+                        <li class="res__item">
+                            <a href="" class="res__link">
+                                Ustoz haqida
+                            </a>
+                        </li>
+                        <li class="res__item">
+                            <a href="" class="res__link">
+                                O’quvchilar fikri
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </header>
         <!-- header end -->
@@ -190,21 +217,10 @@
                 Kurs bitirgan o’quvchilar
                 <p class="studests-text">fikrlar va natijalari</p>
             </h2>
-            <!-- Swiper -->
-
-
-
-            <!-- Swiper JS -->
         </div>
     </section>
     <!-- Students end -->
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>

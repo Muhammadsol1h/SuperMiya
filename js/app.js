@@ -1,28 +1,13 @@
-const swiper = new Swiper('.swiper-container', {
-    loop: true,
+let headerMenu = document.querySelector('.header-hamburger')
+let headerClose = document.querySelector('.header__close')
+let heaederRes = document.querySelector('.heaeder__res')
 
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
+headerMenu.addEventListener('click', function () {
+    heaederRes.classList.add('heaederResActive')
+    document.body.style.overflow = 'hidden';
+})
 
-    navigation: {
-        nextEl: '.swiper-button-next1',
-        prevEl: '.swiper-button-prev1',
-    },
-
-    breakpoints: {
-        480: {
-            slidesPerView: 1,
-            spaceBetween: 20,
-        },
-        768: {
-            slidesPerView: 2,
-            spaceBetween: 30,
-        },
-        1400: {
-            slidesPerView: 3,
-            spaceBetween: 40,
-        },
-    },
-});
+headerClose.addEventListener('click', function () {
+    heaederRes.classList.remove('heaederResActive')
+    document.body.style.overflow = 'auto';
+})
